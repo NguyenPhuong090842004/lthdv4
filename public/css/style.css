@@ -1,0 +1,83 @@
+/* Container chung */
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 30px;
+}
+
+/* Tiêu đề */
+h1, h2 {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Nút thêm mới */
+a.btn-success, a.btn-primary {
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Bảng */
+.table {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #dee2e6;
+}
+
+.table thead {
+  background: #007bff;
+  color: white;
+  text-align: center;
+}
+
+.table th, .table td {
+  padding: 12px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Dòng chẵn màu nhạt */
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Nút hành động */
+.btn-sm {
+  padding: 4px 10px;
+  font-size: 13px;
+  margin: 2px;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border: none;
+  color: #000;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #565e64;
+}
