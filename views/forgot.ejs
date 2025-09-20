@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quên mật khẩu</title>
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+</head>
+<body class="container mt-5">
+  <h2>Quên mật khẩu</h2>
+
+  <% if (error) { %>
+    <div class="alert alert-danger"><%= error %></div>
+  <% } %>
+
+  <form action="/auth/forgot" method="POST">
+    <div class="mb-3">
+      <label>Nhập email của bạn:</label>
+      <input type="email" name="email" class="form-control" required>
+    </div>
+    <button type="submit" class="btn btn-warning">Gửi link reset</button>
+    <a href="/auth/login" class="btn btn-link">Quay lại đăng nhập</a>
+  </form>
+</body>
+</html>

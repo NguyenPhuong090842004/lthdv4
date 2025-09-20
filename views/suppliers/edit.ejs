@@ -1,0 +1,8 @@
+<%- include('../partials/head') %>
+<%- include('../partials/header') %>
+<div class="container">
+<h1>Edit Supplier</h1>
+<form action="/suppliers/<%= supplier._id %>?_method=PUT" method="POST">
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input class="form-control" name="name" value="<%= supplier.name
